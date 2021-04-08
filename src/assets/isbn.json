@@ -1,0 +1,122 @@
+[
+  {
+    "title": "오스카리아나",
+    "author": "오스카 와일드",
+    "isbn": 9788937429019,
+    "state": "rent"
+  },
+  {
+    "title": "게임 밸런스 이야기",
+    "author": "손형률",
+    "isbn": 9788968480294,
+    "state": "rent"
+  },
+  {
+    "title": "게임 프로그래머로 산다는 것",
+    "author": "김성완 , 정재원 , 이국현 , 김상천 , 김용준 , 최영준",
+    "isbn": 9788997924196,
+    "state": "return"
+  },
+  {
+    "title": "유니티 2D 게임 공작소",
+    "author": "오노 고지",
+    "isbn": 9788966189731,
+    "state": "return"
+  },
+  {
+    "title": "유니티 3D 온라인 액션 게임 공작소",
+    "author": "다케우치 다이고로 , 이시구로 다케히코 , 다카하시 마사후미 , 가가와 히로카즈 , 가와모토 겐타로",
+    "isbn": 9791186659335,
+    "state": "rent"
+  },
+  {
+    "title": "김대식의 인간 vs 기계",
+    "author": "김대식",
+    "isbn": 9788962621358,
+    "state": "return"
+  },
+  {
+    "title": "클린 코더",
+    "author": "로버트 마틴",
+    "isbn": 9788960778818,
+    "state": "rent"
+  },
+  {
+    "title": "만약 헤밍웨이가 자바스크립트로 코딩한다면",
+    "author": "앵거스 크롤",
+    "isbn": 9788968484742,
+    "state": "rent"
+  },
+  {
+    "title": "이산수학",
+    "author": "박주미",
+    "isbn": 9791156643050,
+    "state": "return"
+  },
+  {
+    "title": "게임 프로그래밍의 정석",
+    "author": "히라야마 타카시",
+    "isbn": 9788979148992,
+    "state": "return"
+  },
+  {
+    "title": "인생의 발견",
+    "author": "시어도어 젤딘",
+    "isbn": 9791160560060,
+    "state": "return"
+  },
+  {
+    "title": "세렝게티 법칙",
+    "author": "션 B. 캐럴",
+    "isbn": 9791195515653,
+    "state": "return"
+  },
+  {
+    "title": "미적분으로 바라본 하루",
+    "author": "오스카 E. 페르난데스",
+    "isbn": 9788965400912,
+    "state": "return"
+  },
+  {
+    "title": "통계학을 떠받치는 일곱기둥 이야기",
+    "author": "스티븐 스티글러",
+    "isbn": 9788965401551,
+    "state": "return"
+  },
+  {
+    "title": "석가의 해부학 노트",
+    "author": "석정현",
+    "isbn": 9788931579833,
+    "state": "return"
+  },
+  {
+    "title": "The Nature of Software Development",
+    "author": "론 제프리스",
+    "isbn": 9788968484650,
+    "state": "rent"
+  },
+  {
+    "title": "유니티 애니메이션 에센셜",
+    "author": "앨런 쏜",
+    "isbn": 9788960779730,
+    "state": "return"
+  },
+  {
+    "title": "유니티 5.x Shader와 Effect 제작",
+    "author": "앨런 주코니 , 케네스 람머스",
+    "isbn": 9788960779518,
+    "state": "rent"
+  },
+  {
+    "title": "객체 지향과 디자인 패턴",
+    "author": "최범균",
+    "isbn": 9788969090010,
+    "state": "return"
+  },
+  {
+    "title": "유니티 UI 디자인 교과서",
+    "author": "이와이 마사유키",
+    "isbn": 9791158390402,
+    "state": "rent"
+  }
+]
