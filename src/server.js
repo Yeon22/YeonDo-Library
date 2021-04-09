@@ -19,7 +19,30 @@ export function makeServer({ environment = "development" } = {}) {
     routes() {
       this.namespace = "api";
 
-      this.get("/books", schema => schema.books.all())
+      this.get("/books", schema => schema.books.all());
+
+      this.get('/books/:id', (schema, request) => {
+        return schema.books.find(request.params.id).attrs;
+      });
+
+      this.patch('/book', (schema, request) => {
+        const {state, id} = request.requestBody;
+        return this.db.books.update(id, {state: state === 'rent' ? 'return' : 'rent'});
+      });
+
+      this.post('/books/search', (schema, request) => {
+        const {type, text} = request.requestBody;
+        switch (type) {
+          case 'title':
+            return this.db.books.filter(book => book.title.includes(text));
+          case 'isbn':
+            return this.db.books.filter(book => String(book.isbn).includes(text));
+          case 'author':
+            return this.db.books.filter(book => book.author.includes(text));
+          default:
+            return this.db.books.filter(book => book.title.includes(text) || String(book.isbn).includes(text) || book.state.includes(text) || book.author.includes(text));
+        }
+      });
     },
   });
 
