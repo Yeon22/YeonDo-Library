@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["notfound"],{9703:function(n,t,o){"use strict";o.r(t);var u=o("7a23"),e=Object(u["g"])("h1",null,"404 Not Found",-1),c=Object(u["g"])("button",null,"뒤로 가기",-1);function b(n,t){return Object(u["p"])(),Object(u["d"])(u["a"],null,[e,c],64)}const d={};d.render=b;t["default"]=d}}]);
+//# sourceMappingURL=notfound.d299ad67.js.map
